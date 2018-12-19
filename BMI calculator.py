@@ -293,21 +293,6 @@ var20=DoubleVar()
 label4=Label(root,text="FITNESS CALCULATOR",fg="#383a39",font=("Arial Black",30),bg="#AEEEEE")
 label4.grid(row=0,column=1, padx=30, pady=20)
 
-
-
-import time;
-
-localtime = time.asctime( time.localtime(time.time()) )
-print ("Local current time :", localtime)
-
-
-
-
-
-
-
-
-
 label10=Label(root,text="NAME",bg="#AEEEEE",font=("Times 16 bold", 20))
 label10.grid(row=4,column=0, padx=2, pady=2)
 E10 = Entry(root, bd =5,textvariable=var10,width=15,font="Times 16 bold")
